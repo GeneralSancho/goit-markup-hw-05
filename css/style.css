@@ -412,22 +412,21 @@ box-sizing: border-box;
 .features-list {
     margin-top: 0;
     margin-bottom: 0;
-    width: 272px;
+
+
     
     
 }
 
 .icon {
     width: 270px;
-
-    padding-top: 25px;
-    padding-bottom: 25px;
+    height: 120px;
     display: flex;
     justify-content: center;
 
     border-radius: 4px;
     margin-bottom: 30px;
-    background-position: center;
+    align-items: center;
     background-color: var(--background-team-color);
 
 }
@@ -762,6 +761,7 @@ box-sizing: border-box;
 
 .decoration {
     display: flex;
+    align-items: baseline;
 
 }
 
